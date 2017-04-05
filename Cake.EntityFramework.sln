@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postgres", "Postgres", "{B7
 		docker\postgres\docker-compose.yml = docker\postgres\docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.EntityFramework.TestProject.SqlServer", "Cake.EntityFramework.TestProject.SqlServer\Cake.EntityFramework.TestProject.SqlServer.csproj", "{0C15F8E6-89AB-4002-86D7-48E60ACCC16A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{EC98D5C7-B0DF-4CD5-A39F-7B9600E9F71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC98D5C7-B0DF-4CD5-A39F-7B9600E9F71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC98D5C7-B0DF-4CD5-A39F-7B9600E9F71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C15F8E6-89AB-4002-86D7-48E60ACCC16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C15F8E6-89AB-4002-86D7-48E60ACCC16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C15F8E6-89AB-4002-86D7-48E60ACCC16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C15F8E6-89AB-4002-86D7-48E60ACCC16A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +59,6 @@ Global
 		{4D8203A9-0969-4EDD-B50D-6DDB766E3584} = {AFB8B12C-1821-4F49-AEF0-5374E00231B3}
 		{EC98D5C7-B0DF-4CD5-A39F-7B9600E9F71C} = {29AF1EAC-C902-483B-B5BC-DF533312ACB9}
 		{B7CCFDF1-3CBA-4388-89E5-B0A746AB8488} = {D787C48E-330E-43A5-8B4B-F34B4D556305}
+		{0C15F8E6-89AB-4002-86D7-48E60ACCC16A} = {AFB8B12C-1821-4F49-AEF0-5374E00231B3}
 	EndGlobalSection
 EndGlobal
