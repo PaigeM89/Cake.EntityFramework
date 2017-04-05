@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postgres", "Postgres", "{B7
 		docker\postgres\docker-compose.yml = docker\postgres\docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.EntityFramework.TestProject.SqlServer", "Cake.EntityFramework.TestProject.SqlServer\Cake.EntityFramework.TestProject.SqlServer.csproj", "{0C15F8E6-89AB-4002-86D7-48E60ACCC16A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.EntityFramework.TestProject.SqlServer", "tests\TestProjects\Cake.EntityFramework.TestProject.SqlServer\Cake.EntityFramework.TestProject.SqlServer.csproj", "{0C15F8E6-89AB-4002-86D7-48E60ACCC16A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
